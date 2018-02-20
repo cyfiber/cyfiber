@@ -1,37 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>SpiCy-Films</title>
-	<link rel="stylesheet" type="text/css" href="reset.css"> 
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<img src="https://78.media.tumblr.com/55b8d9369fadd6ee8b55a7deea6c6eaf/tumblr_p4f89ulScy1u5kqlyo1_250.gif" alt="spicy-films">
-	<h4>4D works by Cy-Fi</h4>
-	</header>
-<ul>
-	<li> 
-<div>
-	<a href="About Page.html">About</a></li>
-</div>
-	<li><a href="http://www.cravemorebk.com" target="_blank">CravemoreBK</a></li>
-</ul>	
-<div> 
-	<h1>Current Project: LEFT UNSAID</h1> 
+header {
+text-align: center;
+}
 
-	<p> Dear family, 
-My name is Cy-Fi, and these are the conversations in which I am left unsaid. The conversations where my identity needs to be split, or ignored completely. I learned that other queer and trans people of color often feel this silencing as well and their words helped to bring this series to light. This is my outstretched hand, asking you to listen but also to contribute and collaborate with me. 
+header img {
+  height: 50px;
+  width: 200px;
+  margin-top: 10px;
+  text-align: center
+}
 
-Send me your thoughts, ideas for films, or your own works in relation to “Left Unsaid.” I want to build a collection of qtpoc works that are accessible to my community,  along with building friendships and meeting collaborators who want to see positive media representation for qtpoc. Spicy-Films is it’s own genre, one that employs the layering of many identities in one body to represent a mesh of different styles, narratives, and experiences into single bodies of work. If your work doesn’t seem to fit with this project but and you want to be a part of the collection/collab please visit https://www.cravemorebk.com 
-love always, 
-Cy-Fi
-	</p>
-</div>
-	 </p>
-	<iframe src="https://player.vimeo.com/video/247104228" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-</body>
+ul {
+  font-family:'Walter Turncoat', cursive;
+  margin: 0px;
+  background-color: white; 
+  padding: 0px;
+ text-align: center;
+}
 
-</html>
+ul li {
+    display: inline-block;
+    background-color:#68f3f3;
+  
+
+}
+
+h1 {
+	font-family:'Walter Turncoat', cursive;
+	font-size: 30px;
+  text-align: center;
+}	
+
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+p {
+font-family: 'Roboto Slab', serif;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+margin-right: 200px;
+margin-left: 200px;
+
+}
+
+div {
+	margin: 10px;
+}
