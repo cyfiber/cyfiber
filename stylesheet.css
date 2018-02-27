@@ -1,50 +1,87 @@
 header {
-text-align: center;
+	
+	text-align: center;
+  color: blue;
+}
+body {
+  background:black;
+  color: white;
+  text-align: justify; 
+}
+
+a{ color: white; 
+  font-size: 12px;
+
+}
+
+.container {
+  background-color: black;
+
+}
+
+.container:hover img {
+
+  opacity: .2;
 }
 
 header img {
-  height: 50px;
-  width: 200px;
-  margin-top: 10px;
-  text-align: center
+  height: auto;
+  width: 500px;
+  margin-top: 50px;
 }
 
-ul {
-  font-family:'Walter Turncoat', cursive;
-  margin: 0px;
-  background-color: white; 
-  padding: 0px;
- text-align: center;
+.body {
+margin: 0 auto; 
+max-width: 80%;
 }
 
-ul li {
-    display: inline-block;
-    background-color:#68f3f3;
-  
+.navbar ul {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  background-color: rgba(54, 66, 169,0.4);
+  padding: 20px;
+}
 
+.navbar li {
+
+  display: inline;
+  margin: 10px;
 }
 
 h1 {
-	font-family:'Walter Turncoat', cursive;
-	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+  padding: 50px;
   text-align: center;
 }	
+
+p {
+font-family: 'Merriweather', serif;
+font-size: 14px;
+line-height: 1.6;
+padding: 10px;
+}
+
+h4 {
+font-family: 'Merriweather', serif;
+color: white;
+
+}
+
+
+div {
+	margin: 5px;
+}
 
 iframe {
    display: block;
    margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 30px;
 }
 
-p {
-font-family: 'Roboto Slab', serif;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-margin-right: 200px;
-margin-left: 200px;
+.lovealways { 
+padding-bottom: 10px;
+text-align: justify;
+ }
 
-}
-
-div {
-	margin: 10px;
-}
