@@ -1,31 +1,3 @@
-header {
-	
-	text-align: center;
-  color: blue;
-}
-body {
-  background:black;
-  color: white;
-  text-align: justify; 
-}
-
-a{ color: white; 
-  font-size: 12px;
-
-}
-
-
-header img {
-  height: auto;
-  width: 500px;
-  margin-top: 50px;
-}
-
-.body {
-margin: 0 auto; 
-max-width: 80%;
-}
-
 .navbar ul {
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -41,9 +13,11 @@ max-width: 80%;
 
 .hover-me {
   background: url("https://78.media.tumblr.com/b530871191f6d34fd5d3b60099d65372/tumblr_p4ssygAbID1u5kqlyo2_1280.jpg");
-  width: 100%;
+  width: 75%;
   height: 200px;
   transition: background 1s;
+  margin-left: 140px;
+  background-repeat: no-repeat;
 }
 
 .hover-me:hover {
@@ -87,4 +61,3 @@ iframe {
 padding-bottom: 10px;
 text-align: justify;
  }
-
