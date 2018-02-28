@@ -14,15 +14,6 @@ a{ color: white;
 
 }
 
-.container {
-  background-color: black;
-
-}
-
-.container:hover img {
-
-  opacity: .2;
-}
 
 header img {
   height: auto;
@@ -47,6 +38,18 @@ max-width: 80%;
   display: inline;
   margin: 10px;
 }
+
+.hover-me {
+  background: url("https://78.media.tumblr.com/b530871191f6d34fd5d3b60099d65372/tumblr_p4ssygAbID1u5kqlyo2_1280.jpg");
+  width: 100%;
+  height: 200px;
+  transition: background 1s;
+}
+
+.hover-me:hover {
+  background: url("https://78.media.tumblr.com/5e4b96f88e7a782b0d17ebe5faac8b54/tumblr_p4ssygAbID1u5kqlyo1_1280.jpg");
+}
+
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
@@ -84,5 +87,4 @@ iframe {
 padding-bottom: 10px;
 text-align: justify;
  }
-
 
