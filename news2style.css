@@ -1,0 +1,64 @@
+html {
+   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.nav-wrapper { 
+background-color: black; 
+font-family: 'Open Sans', sans-serif; 
+padding-right: 20px;
+padding-left: 10px;
+font-weight: bold; 
+font-size: 50px; 
+ }
+
+h1 { font-family: 'Open Sans', sans-serif; 
+font-weight: bold; 
+font-size: 60px; 
+
+
+
+ }
+
+p { 
+
+font-family: 'Slabo 27px', serif;
+padding-bottom: 30px;  
+ font-size: 17px;
+ line-height: 1.6em; 
+
+ }
+
+ h3 { 
+ 	font-family: 'Slabo 27px', serif;
+ 	font-style: italic; 
+ 	font-size: 12px; 
+ 	font-weight: bold;
+ 	padding-bottom: 40px; 
+
+
+  }
+
+  div { 
+  	padding-bottom: 10px;
+
+ } 
+
+ h4 { 
+font-family: 'Slabo 27px', serif;
+padding-bottom: 30px;
+font-size: 12px; 
+
+}
+
+iframe { 
+float: left; 
+padding-left: 20px; 
+padding-bottom: 
+
+ }
+
+
+
+
+
+  }
