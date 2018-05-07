@@ -12,7 +12,7 @@ font-weight: bold;
 
 h1 { font-family: 'Open Sans', sans-serif; 
 font-weight: bold; 
-font-size: 40px; 
+font-size: 60px; 
 
 
 
@@ -21,7 +21,7 @@ font-size: 40px;
 p { 
 
 font-family: 'Share', cursive;
- padding-bottom: 10px; 
+ padding-bottom: 30px; 
  font-size: 16px;
 
  }
@@ -36,4 +36,55 @@ padding-top: 30px;
 font-family: 'Open Sans', sans-serif; 
 padding-top: 50px; 
 font-size: 30px; 
+font-weight: bold;
    }
+
+ var instance = M.Tabs.init(el, options);
+}  
+
+div {
+margin-top: 10px; 
+padding-top: 10px; 
+margin-bottom: 10px;
+
+}
+
+.image-wrapper { 
+margin-left: 40px; 
+padding: 10px; 
+line-height: 640px;  
+ }
+
+article { 
+	text-align: left;
+	position: relative;
+	height: 600px;
+
+
+}
+
+img { 
+	display: block;
+	margin: 0 auto;
+	opacity: 1.0;
+ }
+
+img:hover {
+    opacity: .5;
+
+}
+
+text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;    
+
+
+  }
+
+ }
